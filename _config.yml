@@ -1,0 +1,56 @@
+# Configuración de GitHub Pages
+title: "Apelolito - Mamás al Rescate"
+description: "Organización y ambientación de eventos infantiles únicos. Hacemos que cada celebración sea mágica y memorable."
+url: "https://tu-usuario.github.io"
+baseurl: "/apelolito"
+
+# Metadatos del sitio
+author: "Apelolito Team"
+email: "hola@apelolito.com"
+lang: "es"
+
+# Configuración de GitHub Pages
+github_username: tu-usuario
+repository: apelolito
+
+# Plugins habilitados
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Configuración de construcción
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Archivos a excluir
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore
+  - package.json
+  - package-lock.json
+  - node_modules/
+  - vendor/
+
+# Archivos a incluir
+include:
+  - _pages
+
+# Configuración adicional
+timezone: America/Mexico_City
+encoding: utf-8
+
+# SEO y metadatos
+social:
+  name: "Apelolito - Mamás al Rescate"
+  links:
+    - "https://www.facebook.com/apelolito"
+    - "https://www.instagram.com/apelolito"
+    - "https://www.tiktok.com/@apelolito"
+
+# Configuración de Google Analytics (opcional)
+# google_analytics: UA-XXXXXXXXX-X
+
+# Configuración de búsqueda (opcional)
+# google_site_verification: "código-de-verificación" 
